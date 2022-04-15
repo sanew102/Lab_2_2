@@ -25,7 +25,6 @@
 		6DC0121F2805FA4B00358ACC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0121E2805FA4B00358ACC /* SettingsTableViewController.swift */; };
 		6DC012232805FC7C00358ACC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC012222805FC7C00358ACC /* Model.swift */; };
 		6DC012252805FD5F00358ACC /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC012242805FD5F00358ACC /* InfoTableViewCell.swift */; };
-		6DC0122E28064A6A00358ACC /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0122D28064A6A00358ACC /* Montserrat */; };
 		6DC01230280650D200358ACC /* PushTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0122F280650D200358ACC /* PushTableViewCell.swift */; };
 		6DE69EB02806D157009DB3A5 /* ChangePasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EAF2806D157009DB3A5 /* ChangePasswordTableViewCell.swift */; };
 		6DE69EB22806D27B009DB3A5 /* KodDostupaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EB12806D27B009DB3A5 /* KodDostupaTableViewCell.swift */; };
@@ -57,7 +56,6 @@
 		6DC0121E2805FA4B00358ACC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		6DC012222805FC7C00358ACC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6DC012242805FD5F00358ACC /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
-		6DC0122D28064A6A00358ACC /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Montserrat; path = ../../../../.Trash/Montserrat; sourceTree = "<group>"; };
 		6DC0122F280650D200358ACC /* PushTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTableViewCell.swift; sourceTree = "<group>"; };
 		6DE69EAF2806D157009DB3A5 /* ChangePasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewCell.swift; sourceTree = "<group>"; };
 		6DE69EB12806D27B009DB3A5 /* KodDostupaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodDostupaTableViewCell.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 				6DC012132805F9FD00358ACC /* Assets.xcassets */,
 				6DC012152805F9FD00358ACC /* LaunchScreen.storyboard */,
 				6DC012182805F9FD00358ACC /* Info.plist */,
-				6DC0122D28064A6A00358ACC /* Montserrat */,
 			);
 			path = Lab_2_2;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC012172805F9FD00358ACC /* LaunchScreen.storyboard in Resources */,
-				6DC0122E28064A6A00358ACC /* Montserrat in Resources */,
 				6DC012142805F9FD00358ACC /* Assets.xcassets in Resources */,
 				6DC012122805F9FA00358ACC /* Main.storyboard in Resources */,
 			);
