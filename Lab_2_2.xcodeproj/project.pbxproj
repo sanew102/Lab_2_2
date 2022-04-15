@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D210A042808E078002376C3 /* InitiialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D210A032808E078002376C3 /* InitiialViewController.swift */; };
+		6D210A062808E4B0002376C3 /* CustomNavBarExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D210A052808E4B0002376C3 /* CustomNavBarExtention.swift */; };
+		6D8B134D28073D1F002B95FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B134C28073D1F002B95FC /* TableViewCell.swift */; };
+		6D8B135028080229002B95FC /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B134F28080229002B95FC /* PasswordViewController.swift */; };
+		6D8B135228083125002B95FC /* CurrentPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B135128083125002B95FC /* CurrentPasswordView.swift */; };
+		6D8B1356280844A0002B95FC /* NewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B1355280844A0002B95FC /* NewPassword.swift */; };
+		6D8B13582808A873002B95FC /* RepeatPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B13572808A873002B95FC /* RepeatPasswordView.swift */; };
+		6D8B135A2808AB56002B95FC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B13592808AB56002B95FC /* ForgotPasswordView.swift */; };
+		6D8B135C2808B039002B95FC /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B135B2808B039002B95FC /* SaveView.swift */; };
 		6DC0120B2805F9FA00358ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0120A2805F9FA00358ACC /* AppDelegate.swift */; };
 		6DC0120D2805F9FA00358ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0120C2805F9FA00358ACC /* SceneDelegate.swift */; };
 		6DC0120F2805F9FA00358ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0120E2805F9FA00358ACC /* ViewController.swift */; };
 		6DC012122805F9FA00358ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC012102805F9FA00358ACC /* Main.storyboard */; };
 		6DC012142805F9FD00358ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC012132805F9FD00358ACC /* Assets.xcassets */; };
 		6DC012172805F9FD00358ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC012152805F9FD00358ACC /* LaunchScreen.storyboard */; };
+		6DC0121F2805FA4B00358ACC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0121E2805FA4B00358ACC /* SettingsTableViewController.swift */; };
+		6DC012232805FC7C00358ACC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC012222805FC7C00358ACC /* Model.swift */; };
+		6DC012252805FD5F00358ACC /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC012242805FD5F00358ACC /* InfoTableViewCell.swift */; };
+		6DC0122E28064A6A00358ACC /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0122D28064A6A00358ACC /* Montserrat */; };
+		6DC01230280650D200358ACC /* PushTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0122F280650D200358ACC /* PushTableViewCell.swift */; };
+		6DE69EB02806D157009DB3A5 /* ChangePasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EAF2806D157009DB3A5 /* ChangePasswordTableViewCell.swift */; };
+		6DE69EB22806D27B009DB3A5 /* KodDostupaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EB12806D27B009DB3A5 /* KodDostupaTableViewCell.swift */; };
+		6DE69EB42806D327009DB3A5 /* FaceIdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EB32806D327009DB3A5 /* FaceIdTableViewCell.swift */; };
+		6DE69EB62806D3D6009DB3A5 /* PhoneNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EB52806D3D6009DB3A5 /* PhoneNumberTableViewCell.swift */; };
+		6DE69EB82806D3E1009DB3A5 /* ExitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69EB72806D3E1009DB3A5 /* ExitTableViewCell.swift */; };
+		973FD5D1B00B790385594E0B /* Pods_Lab_2_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8ECDC7C586009CC3792310 /* Pods_Lab_2_2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524581389BE97DD4335809B1 /* Pods-Lab_2_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_2_2.release.xcconfig"; path = "Target Support Files/Pods-Lab_2_2/Pods-Lab_2_2.release.xcconfig"; sourceTree = "<group>"; };
+		6D210A032808E078002376C3 /* InitiialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitiialViewController.swift; sourceTree = "<group>"; };
+		6D210A052808E4B0002376C3 /* CustomNavBarExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarExtention.swift; sourceTree = "<group>"; };
+		6D8B134C28073D1F002B95FC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6D8B134F28080229002B95FC /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		6D8B135128083125002B95FC /* CurrentPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPasswordView.swift; sourceTree = "<group>"; };
+		6D8B1355280844A0002B95FC /* NewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassword.swift; sourceTree = "<group>"; };
+		6D8B13572808A873002B95FC /* RepeatPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPasswordView.swift; sourceTree = "<group>"; };
+		6D8B13592808AB56002B95FC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		6D8B135B2808B039002B95FC /* SaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
 		6DC012072805F9FA00358ACC /* Lab_2_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_2_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0120A2805F9FA00358ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC0120C2805F9FA00358ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,18 @@
 		6DC012132805F9FD00358ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC012162805F9FD00358ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC012182805F9FD00358ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC0121E2805FA4B00358ACC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		6DC012222805FC7C00358ACC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6DC012242805FD5F00358ACC /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		6DC0122D28064A6A00358ACC /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Montserrat; path = ../../../../.Trash/Montserrat; sourceTree = "<group>"; };
+		6DC0122F280650D200358ACC /* PushTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTableViewCell.swift; sourceTree = "<group>"; };
+		6DE69EAF2806D157009DB3A5 /* ChangePasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewCell.swift; sourceTree = "<group>"; };
+		6DE69EB12806D27B009DB3A5 /* KodDostupaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodDostupaTableViewCell.swift; sourceTree = "<group>"; };
+		6DE69EB32806D327009DB3A5 /* FaceIdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIdTableViewCell.swift; sourceTree = "<group>"; };
+		6DE69EB52806D3D6009DB3A5 /* PhoneNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTableViewCell.swift; sourceTree = "<group>"; };
+		6DE69EB72806D3E1009DB3A5 /* ExitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitTableViewCell.swift; sourceTree = "<group>"; };
+		73AAD23A30FADD181BC518DE /* Pods-Lab_2_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_2_2.debug.xcconfig"; path = "Target Support Files/Pods-Lab_2_2/Pods-Lab_2_2.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8ECDC7C586009CC3792310 /* Pods_Lab_2_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab_2_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973FD5D1B00B790385594E0B /* Pods_Lab_2_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ECB83B5592928483352535F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ECDC7C586009CC3792310 /* Pods_Lab_2_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F754D9D6C117980D381082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73AAD23A30FADD181BC518DE /* Pods-Lab_2_2.debug.xcconfig */,
+				524581389BE97DD4335809B1 /* Pods-Lab_2_2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D8B134E28076826002B95FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0121E2805FA4B00358ACC /* SettingsTableViewController.swift */,
+				6D8B134F28080229002B95FC /* PasswordViewController.swift */,
+				6D210A032808E078002376C3 /* InitiialViewController.swift */,
+				6D210A052808E4B0002376C3 /* CustomNavBarExtention.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		6DC011FE2805F9FA00358ACC = {
 			isa = PBXGroup;
 			children = (
 				6DC012092805F9FA00358ACC /* Lab_2_2 */,
+				6DC012282806457D00358ACC /* Fonts */,
 				6DC012082805F9FA00358ACC /* Products */,
+				25F754D9D6C117980D381082 /* Pods */,
+				1ECB83B5592928483352535F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,54 @@
 		6DC012092805F9FA00358ACC /* Lab_2_2 */ = {
 			isa = PBXGroup;
 			children = (
+				6D8B134E28076826002B95FC /* Controller */,
+				6DC012212805FC6900358ACC /* model */,
+				6DC012202805FC6300358ACC /* view */,
 				6DC0120A2805F9FA00358ACC /* AppDelegate.swift */,
 				6DC0120C2805F9FA00358ACC /* SceneDelegate.swift */,
 				6DC0120E2805F9FA00358ACC /* ViewController.swift */,
+				6DC012242805FD5F00358ACC /* InfoTableViewCell.swift */,
 				6DC012102805F9FA00358ACC /* Main.storyboard */,
 				6DC012132805F9FD00358ACC /* Assets.xcassets */,
 				6DC012152805F9FD00358ACC /* LaunchScreen.storyboard */,
 				6DC012182805F9FD00358ACC /* Info.plist */,
+				6DC0122D28064A6A00358ACC /* Montserrat */,
 			);
 			path = Lab_2_2;
+			sourceTree = "<group>";
+		};
+		6DC012202805FC6300358ACC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0122F280650D200358ACC /* PushTableViewCell.swift */,
+				6DE69EAF2806D157009DB3A5 /* ChangePasswordTableViewCell.swift */,
+				6DE69EB12806D27B009DB3A5 /* KodDostupaTableViewCell.swift */,
+				6DE69EB32806D327009DB3A5 /* FaceIdTableViewCell.swift */,
+				6DE69EB52806D3D6009DB3A5 /* PhoneNumberTableViewCell.swift */,
+				6DE69EB72806D3E1009DB3A5 /* ExitTableViewCell.swift */,
+				6D8B134C28073D1F002B95FC /* TableViewCell.swift */,
+				6D8B135128083125002B95FC /* CurrentPasswordView.swift */,
+				6D8B1355280844A0002B95FC /* NewPassword.swift */,
+				6D8B13572808A873002B95FC /* RepeatPasswordView.swift */,
+				6D8B13592808AB56002B95FC /* ForgotPasswordView.swift */,
+				6D8B135B2808B039002B95FC /* SaveView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6DC012212805FC6900358ACC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6DC012222805FC7C00358ACC /* Model.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6DC012282806457D00358ACC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC0121B2805F9FD00358ACC /* Build configuration list for PBXNativeTarget "Lab_2_2" */;
 			buildPhases = (
+				A430BCDB1201EC9B532E589A /* [CP] Check Pods Manifest.lock */,
 				6DC012032805F9FA00358ACC /* Sources */,
 				6DC012042805F9FA00358ACC /* Frameworks */,
 				6DC012052805F9FA00358ACC /* Resources */,
+				304D7CA127362813355CA5AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC012172805F9FD00358ACC /* LaunchScreen.storyboard in Resources */,
+				6DC0122E28064A6A00358ACC /* Montserrat in Resources */,
 				6DC012142805F9FD00358ACC /* Assets.xcassets in Resources */,
 				6DC012122805F9FA00358ACC /* Main.storyboard in Resources */,
 			);
@@ -133,14 +249,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		304D7CA127362813355CA5AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab_2_2/Pods-Lab_2_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab_2_2/Pods-Lab_2_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab_2_2/Pods-Lab_2_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A430BCDB1201EC9B532E589A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab_2_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DC012032805F9FA00358ACC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE69EB02806D157009DB3A5 /* ChangePasswordTableViewCell.swift in Sources */,
+				6DC012232805FC7C00358ACC /* Model.swift in Sources */,
+				6DE69EB22806D27B009DB3A5 /* KodDostupaTableViewCell.swift in Sources */,
+				6D8B13582808A873002B95FC /* RepeatPasswordView.swift in Sources */,
+				6DE69EB82806D3E1009DB3A5 /* ExitTableViewCell.swift in Sources */,
+				6DE69EB42806D327009DB3A5 /* FaceIdTableViewCell.swift in Sources */,
+				6D8B135228083125002B95FC /* CurrentPasswordView.swift in Sources */,
+				6D8B134D28073D1F002B95FC /* TableViewCell.swift in Sources */,
+				6DC0121F2805FA4B00358ACC /* SettingsTableViewController.swift in Sources */,
+				6DC01230280650D200358ACC /* PushTableViewCell.swift in Sources */,
+				6D8B1356280844A0002B95FC /* NewPassword.swift in Sources */,
 				6DC0120F2805F9FA00358ACC /* ViewController.swift in Sources */,
+				6DC012252805FD5F00358ACC /* InfoTableViewCell.swift in Sources */,
+				6D210A042808E078002376C3 /* InitiialViewController.swift in Sources */,
+				6D210A062808E4B0002376C3 /* CustomNavBarExtention.swift in Sources */,
+				6D8B135028080229002B95FC /* PasswordViewController.swift in Sources */,
 				6DC0120B2805F9FA00358ACC /* AppDelegate.swift in Sources */,
 				6DC0120D2805F9FA00358ACC /* SceneDelegate.swift in Sources */,
+				6D8B135A2808AB56002B95FC /* ForgotPasswordView.swift in Sources */,
+				6DE69EB62806D3D6009DB3A5 /* PhoneNumberTableViewCell.swift in Sources */,
+				6D8B135C2808B039002B95FC /* SaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +458,7 @@
 		};
 		6DC0121C2805F9FD00358ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AAD23A30FADD181BC518DE /* Pods-Lab_2_2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +469,6 @@
 				INFOPLIST_FILE = Lab_2_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +486,7 @@
 		};
 		6DC0121D2805F9FD00358ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524581389BE97DD4335809B1 /* Pods-Lab_2_2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +497,6 @@
 				INFOPLIST_FILE = Lab_2_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
