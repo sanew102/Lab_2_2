@@ -88,7 +88,6 @@ class SettingsTableViewController: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
         let vc = PasswordViewController()
         if indexPath.row == 2 {
         navigationController?.pushViewController(vc, animated: true)

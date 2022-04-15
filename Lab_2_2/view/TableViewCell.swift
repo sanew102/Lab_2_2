@@ -101,7 +101,6 @@ class TableViewCell: UITableViewCell {
         profileImageView.image = person.image
         nameLabel.text = person.name
         emailLabel.text = person.email
-        print("gus")
     }
     private func setupView() {
         contentView.addSubviews(view, nameLabel, emailLabel, border, buttonView, buttonImageView)
