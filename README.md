@@ -1,4 +1,5 @@
 # Profile
-Settings + Change PasswordScreens with TableViw
+Settings + Change PasswordScreens with TableView
+
 Profile page w|
 Snapkit, MVC
